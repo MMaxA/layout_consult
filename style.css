@@ -14,6 +14,7 @@ body {
 .wrapper {
   margin: 0 auto;
   max-width: 1200x;
+  width: 1200px;
 }
 
 .container {
@@ -22,11 +23,9 @@ body {
 }
 
 .header {
-  width: 100%;
-  height: 100vh;
   background-image: url("img/bg-header.jpg");
-  background-position: bottom;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 40px;
   padding-bottom: 70px;
