@@ -47,7 +47,6 @@ body {
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 5.7px;
-  
     font-family: "Bebas Neue", sans-serif;
   }
   .header__text {
@@ -64,9 +63,11 @@ body {
     text-decoration: none;
     color: #ffffff;
   }
-  
+
   .nav {
+    border-bottom: 2px solid #E6E6E6;
   }
+
   .nav__inner {
     height: 65px;
     display: flex;
@@ -272,4 +273,142 @@ body {
     box-shadow: 0 0 10px #889ea8;
     margin-top: -10px;
     cursor: pointer;
+}
+
+.city {
+    background-image: url("img/bg_city.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 230px;
+}
+
+.city__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city__title {
+    color: #48555B;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    text-align: center;
+}
+.city-btn {
+    margin-top: 40px
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #171819;
+    color: #fff;
+}
+.newsletter__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter__title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.85px;
+    margin-right: 70px;
+}
+
+.newsletter__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter__form input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #979797;
+    padding-left: 15px;
+}
+
+.newsletter__inner::placeholder {
+    color: #48555B;
+}
+
+.newsletter-btn {
+    border: none;
+}
+
+.footer__links {
+    background-color: #141A20;
+    color: #fff;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.footer__inner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-subtitle {
+    font-size: 11px;
+    letter-spacing: 0.85px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__inner-company {
+    width: 250px;
+    margin-right: 70px;
+}
+
+.company-logo {
+    width: 102px;
+}
+
+.company-text {
+    font-size: 11px;
+    color: #FFF;
+    margin-top: 20px;
+    line-height: 19px;
+}
+
+.footer__inner-links {
+    width: 260px;
+    margin-right: 70px;
+}
+
+.footer__inner-contacts {
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #171819;
+}
+
+.footer__copyright span {
+    font-size: 11px;
+    letter-spacing: 0.85px;
+    color: #FFF;
+}
+
+
+
+
+
+.nav {
+}
+.nav__inner {
+}
+.nav__logo {
+}
+.nav__list {
+}
+.nav__item {
 }
